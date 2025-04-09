@@ -54,7 +54,7 @@ int main() {
         factorial *= partial_results[i];
     }
 
-    printf(" (12!) = %12d\n", factorial);
+    printf(" (12!) = %lld\n", factorial);
 
     return 0;
 }
